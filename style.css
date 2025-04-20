@@ -1,0 +1,95 @@
+:root {
+  --bg-color: #fff9f0;
+  --text-color: #333;
+  --header-color: #f9c5d1;
+  --accent-color: #f3a6b1;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--header-color);
+  padding: 2em;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5em;
+}
+
+header button {
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav {
+  background-color: var(--accent-color);
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2em;
+  line-height: 1.6;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+blockquote {
+  font-style: italic;
+  color: #555;
+  border-left: 4px solid var(--accent-color);
+  padding-left: 1em;
+  margin: 1em 0;
+}
+
+.galeri-container {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.galeri-container img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+footer {
+  background-color: var(--accent-color);
+  text-align: center;
+  padding: 1.5em;
+  color: white;
+}
+
